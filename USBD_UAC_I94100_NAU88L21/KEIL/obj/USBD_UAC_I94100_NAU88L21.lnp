@@ -1,0 +1,33 @@
+--cpu=Cortex-M4.fp
+".\obj\startup_i94100.o"
+".\obj\system_i94100.o"
+".\obj\sysclk.o"
+".\obj\main.o"
+".\obj\audio_class.o"
+".\obj\audio_descriptor.o"
+".\obj\nau88l21_lib.o"
+".\obj\clk.o"
+".\obj\crc.o"
+".\obj\dmic.o"
+".\obj\dpwm.o"
+".\obj\eadc.o"
+".\obj\fmc.o"
+".\obj\gpio.o"
+".\obj\i2c.o"
+".\obj\i2s.o"
+".\obj\pdma.o"
+".\obj\pwm.o"
+".\obj\retarget.o"
+".\obj\rtc.o"
+".\obj\spi.o"
+".\obj\sys.o"
+".\obj\timer.o"
+".\obj\uart.o"
+".\obj\usbd.o"
+".\obj\vad.o"
+".\obj\wdt.o"
+".\obj\wwdt.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict
+--map --first='startup_I94100.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lst\USBD_UAC_I94100_NAU88L21.map" -o .\obj\USBD_UAC_I94100_NAU88L21.axf

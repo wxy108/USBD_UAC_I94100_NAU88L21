@@ -1,0 +1,1392 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\obj\USBD_UAC_I94100_NAU88L21.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\obj\USBD_UAC_I94100_NAU88L21.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Thu Aug 26 14:57:11 2021
+<BR><P>
+<H3>Maximum Stack Usage =        168 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+AUDIO_ClassRequest &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[3]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">NMI_Handler</a><BR>
+ <LI><a href="#[4]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">HardFault_Handler</a><BR>
+ <LI><a href="#[5]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">MemManage_Handler</a><BR>
+ <LI><a href="#[6]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[6]">BusFault_Handler</a><BR>
+ <LI><a href="#[7]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[7]">UsageFault_Handler</a><BR>
+ <LI><a href="#[8]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[8]">SVC_Handler</a><BR>
+ <LI><a href="#[9]">DebugMon_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[9]">DebugMon_Handler</a><BR>
+ <LI><a href="#[a]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[a]">PendSV_Handler</a><BR>
+ <LI><a href="#[11]">Default_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[11]">Default_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[72]">AUDIO_ClassRequest</a> from audio_class.o(.text) referenced from audio_class.o(.text)
+ <LI><a href="#[6b]">AUDIO_SetInterface</a> from audio_class.o(.text) referenced from audio_class.o(.text)
+ <LI><a href="#[c]">BOD_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[6]">BusFault_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[10]">CLKF_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[31]">DMIC_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[34]">DPWM_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[9]">DebugMon_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[11]">Default_Handler</a> from startup_i94100.o(.text) referenced 28 times from startup_i94100.o(RESET)
+ <LI><a href="#[2c]">EADC0_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[2d]">EADC1_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[2e]">EADC2_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[2f]">EADC3_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[15]">EINT0_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[16]">EINT1_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[17]">EINT2_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[18]">EINT3_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[19]">EINT4_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[1a]">EINT5_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[1b]">GPA_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[1c]">GPB_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[1d]">GPC_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[1e]">GPD_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[4]">HardFault_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[29]">I2C0_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[2a]">I2C1_IRQHandler</a> from nau88l21_lib.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[35]">I2S0_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[d]">IRC_IRQHandler</a> from sysclk.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[5]">MemManage_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[3]">NMI_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[2b]">PDMA_IRQHandler</a> from nau88l21_lib.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[21]">PWM0P0_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[22]">PWM0P1_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[23]">PWM0P2_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[e]">PWRWU_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[a]">PendSV_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[12]">RTC_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[3a]">Reset_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[1f]">SPI0_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[20]">SPI1_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[30]">SPI2_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[f]">SRAMF_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[8]">SVC_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[b]">SysTick_Handler</a> from sysclk.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[36]">SystemInit</a> from system_i94100.o(.text) referenced from startup_i94100.o(.text)
+ <LI><a href="#[24]">TMR0_IRQHandler</a> from sysclk.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[25]">TMR1_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[26]">TMR2_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[27]">TMR3_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[28]">UART0_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[32]">USBD_IRQHandler</a> from audio_class.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[7]">UsageFault_Handler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[33]">VAD_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[13]">WDT_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[14]">WWDT_IRQHandler</a> from startup_i94100.o(.text) referenced from startup_i94100.o(RESET)
+ <LI><a href="#[3b]">__main</a> from __main.o(!!!main) referenced from startup_i94100.o(.text)
+ <LI><a href="#[39]">_printf_input_char</a> from _printf_char_common.o(.text) referenced from _printf_char_common.o(.text)
+ <LI><a href="#[38]">fputc</a> from retarget.o(.text) referenced from _printf_char_file.o(.text)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[3b]"></a>__main</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, __main.o(!!!main))
+<BR><BR>[Calls]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[3d]"></a>__scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter))
+<BR><BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[3f]"></a>__scatterload_rt2</STRONG> (Thumb, 44 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[b1]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[b2]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[40]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+
+<P><STRONG><a name="[b3]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+
+<P><STRONG><a name="[aa]"></a>_printf_percent</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__printf
+</UL>
+
+<P><STRONG><a name="[41]"></a>_printf_x</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_x.o(.ARM.Collect$$_printf_percent$$0000000C))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64 + Unknown Stack Size
+<LI>Call Chain = _printf_x &rArr; _printf_int_hex &rArr; _printf_int_common &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_hex
+</UL>
+
+<P><STRONG><a name="[b4]"></a>_printf_percent_end</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, _printf_percent_end.o(.ARM.Collect$$_printf_percent$$00000017))
+
+<P><STRONG><a name="[48]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
+</UL>
+
+<P><STRONG><a name="[43]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000001))
+<BR><BR>[Calls]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_init
+</UL>
+
+<P><STRONG><a name="[b5]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+
+<P><STRONG><a name="[b6]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
+
+<P><STRONG><a name="[b7]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+
+<P><STRONG><a name="[b8]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+
+<P><STRONG><a name="[b9]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+
+<P><STRONG><a name="[ba]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+
+<P><STRONG><a name="[bb]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+
+<P><STRONG><a name="[bc]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+
+<P><STRONG><a name="[bd]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+
+<P><STRONG><a name="[be]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+
+<P><STRONG><a name="[bf]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+
+<P><STRONG><a name="[c0]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+
+<P><STRONG><a name="[c1]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+
+<P><STRONG><a name="[c2]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+
+<P><STRONG><a name="[c3]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+
+<P><STRONG><a name="[c4]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+
+<P><STRONG><a name="[c5]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
+
+<P><STRONG><a name="[c6]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+
+<P><STRONG><a name="[c7]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+
+<P><STRONG><a name="[c8]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+
+<P><STRONG><a name="[4d]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
+</UL>
+
+<P><STRONG><a name="[c9]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+
+<P><STRONG><a name="[ca]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
+
+<P><STRONG><a name="[cb]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+
+<P><STRONG><a name="[cc]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
+
+<P><STRONG><a name="[cd]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
+
+<P><STRONG><a name="[ce]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+
+<P><STRONG><a name="[cf]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+
+<P><STRONG><a name="[3e]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[d0]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+
+<P><STRONG><a name="[45]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_sh &rArr; __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[47]"></a>__rt_entry_li</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000A))
+<BR><BR>[Calls]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[d1]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+
+<P><STRONG><a name="[49]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; I2S_INIT &rArr; I2S_Open &rArr; I2S_GetSourceClockFreq &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[d2]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+
+<P><STRONG><a name="[b0]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[4c]"></a>__rt_exit_ls</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000003))
+<BR><BR>[Calls]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+</UL>
+
+<P><STRONG><a name="[d3]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+
+<P><STRONG><a name="[4e]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
+</UL>
+
+<P><STRONG><a name="[3a]"></a>Reset_Handler</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+
+<P><STRONG><a name="[3]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[6]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[7]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[9]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>BOD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>CLKF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[31]"></a>DMIC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>DPWM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[2c]"></a>EADC0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>EADC1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[2e]"></a>EADC2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[2f]"></a>EADC3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>EINT0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>EINT1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>EINT2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>EINT3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>EINT4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>EINT5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>GPA_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>GPB_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>GPC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>GPD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[29]"></a>I2C0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[35]"></a>I2S0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>PWM0P0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>PWM0P1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>PWM0P2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>PWRWU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>SPI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>SRAMF_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>TMR1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>TMR2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>TMR3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>UART0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>VAD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>WDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>WWDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>__user_initial_stackheap</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[50]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 104 bytes, Stack size 16 bytes, system_i94100.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetCPUFreq
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK1Freq
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK0Freq
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetHCLK
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHCLKFreq
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Systick_Init
+</UL>
+
+<P><STRONG><a name="[36]"></a>SystemInit</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, system_i94100.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SystemInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_UnlockReg
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_LockReg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(.text)
+</UL>
+<P><STRONG><a name="[54]"></a>Systick_Init</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, sysclk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = Systick_Init &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[56]"></a>HIRC_AutoTrim_Init</STRONG> (Thumb, 152 bytes, Stack size 8 bytes, sysclk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = HIRC_AutoTrim_Init &rArr; TIMER_Open &rArr; TIMER_GetModuleClock &rArr; CLK_GetPCLK1Freq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Open
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetModuleClock
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[5b]"></a>SysClk_Initiate</STRONG> (Thumb, 100 bytes, Stack size 8 bytes, sysclk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = SysClk_Initiate &rArr; HIRC_AutoTrim_Init &rArr; TIMER_Open &rArr; TIMER_GetModuleClock &rArr; CLK_GetPCLK1Freq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Unlock
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Lock
+<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_WaitClockReady
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetPCLKDivider
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetHCLK
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHCLKFreq
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableXtalRC
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnablePLL
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HIRC_AutoTrim_Init
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Systick_Init
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[d]"></a>IRC_IRQHandler</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, sysclk.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>TMR0_IRQHandler</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, sysclk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TMR0_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_EnableTrimHIRC
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[65]"></a>HIRC_AutoTrim_RefSof</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, sysclk.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_EnableTrimHIRC
+</UL>
+
+<P><STRONG><a name="[b]"></a>SysTick_Handler</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, sysclk.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[d4]"></a>DELAYMS</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, sysclk.o(.text), UNUSED)
+
+<P><STRONG><a name="[4a]"></a>main</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = main &rArr; I2S_INIT &rArr; I2S_Open &rArr; I2S_GetSourceClockFreq &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_START
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_INIT
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NAU88L21_INIT
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_INIT
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_INIT
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[79]"></a>AUDIO_Init</STRONG> (Thumb, 114 bytes, Stack size 8 bytes, audio_class.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = AUDIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_INIT
+</UL>
+
+<P><STRONG><a name="[6b]"></a>AUDIO_SetInterface</STRONG> (Thumb, 144 bytes, Stack size 24 bytes, audio_class.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = AUDIO_SetInterface &rArr; PDMA_I2S0_TX_Init &rArr; PDMA_SetTransferMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetSetupPacket
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_TX_Init
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_RX_Init
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_TX_Stop
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_RX_Stop
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_RX_Start
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> audio_class.o(.text)
+</UL>
+<P><STRONG><a name="[72]"></a>AUDIO_ClassRequest</STRONG> (Thumb, 1560 bytes, Stack size 24 bytes, audio_class.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168 + Unknown Stack Size
+<LI>Call Chain = AUDIO_ClassRequest &rArr; __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_PrepareCtrlOut
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_PrepareCtrlIn
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetSetupPacket
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetStall
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> audio_class.o(.text)
+</UL>
+<P><STRONG><a name="[69]"></a>USBD_INIT</STRONG> (Thumb, 90 bytes, Stack size 8 bytes, audio_class.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_INIT &rArr; USBD_Open
+</UL>
+<BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Open
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_Init
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetModuleClock
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[84]"></a>EP7_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, audio_class.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[83]"></a>EP6_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, audio_class.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[82]"></a>EP4_Handler</STRONG> (Thumb, 164 bytes, Stack size 0 bytes, audio_class.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[7a]"></a>EP3_Handler</STRONG> (Thumb, 496 bytes, Stack size 24 bytes, audio_class.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = EP3_Handler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_TX_Start
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[81]"></a>EP2_Handler</STRONG> (Thumb, 218 bytes, Stack size 12 bytes, audio_class.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = EP2_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[32]"></a>USBD_IRQHandler</STRONG> (Thumb, 420 bytes, Stack size 16 bytes, audio_class.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = USBD_IRQHandler &rArr; USBD_ProcessSetupPacket &rArr; USBD_StandardRequest &rArr; USBD_GetDescriptor &rArr; USBD_PrepareCtrlIn &rArr; USBD_MemCopy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SwReset
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ProcessSetupPacket
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CtrlOut
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CtrlIn
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_EnablePullState
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_DisablePullState
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP2_Handler
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP3_Handler
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP4_Handler
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP6_Handler
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP7_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[d5]"></a>EP5_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, audio_class.o(.text), UNUSED)
+
+<P><STRONG><a name="[67]"></a>NAU88L21_INIT</STRONG> (Thumb, 134 bytes, Stack size 0 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[66]"></a>I2C1_INIT</STRONG> (Thumb, 108 bytes, Stack size 8 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = I2C1_INIT &rArr; I2C_Open &rArr; CLK_GetPCLK1Freq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_ResetModule
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Open
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_EnableInt
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_EnablePullState
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[2a]"></a>I2C1_IRQHandler</STRONG> (Thumb, 244 bytes, Stack size 8 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = I2C1_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_ClearTimeoutFlag
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[68]"></a>I2S_INIT</STRONG> (Thumb, 164 bytes, Stack size 16 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = I2S_INIT &rArr; I2S_Open &rArr; I2S_GetSourceClockFreq &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_ResetModule
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_Open
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_EnableMCLK
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetModuleClock
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[7b]"></a>I2S_TX_Start</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EP3_Handler
+</UL>
+
+<P><STRONG><a name="[71]"></a>I2S_TX_Stop</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_SetInterface
+</UL>
+
+<P><STRONG><a name="[6e]"></a>I2S_RX_Start</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_SetInterface
+</UL>
+
+<P><STRONG><a name="[6f]"></a>I2S_RX_Stop</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_SetInterface
+</UL>
+
+<P><STRONG><a name="[70]"></a>PDMA_I2S0_TX_Init</STRONG> (Thumb, 106 bytes, Stack size 8 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = PDMA_I2S0_TX_Init &rArr; PDMA_SetTransferMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_ResetModule
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_SetTransferMode
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_Open
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_EnableInt
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_SetInterface
+</UL>
+
+<P><STRONG><a name="[6d]"></a>PDMA_I2S0_RX_Init</STRONG> (Thumb, 224 bytes, Stack size 8 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = PDMA_I2S0_RX_Init &rArr; PDMA_SetTransferMode
+</UL>
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_ResetModule
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_SetTransferMode
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_Open
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_EnableInt
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_EnableIRQ
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnableModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_SetInterface
+</UL>
+
+<P><STRONG><a name="[2b]"></a>PDMA_IRQHandler</STRONG> (Thumb, 534 bytes, Stack size 12 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = PDMA_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[d6]"></a>CLK_DisableCKO</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[d7]"></a>CLK_EnableCKO</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[d8]"></a>CLK_PowerDown</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[d9]"></a>CLK_Idle</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[da]"></a>CLK_GetHXTFreq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[db]"></a>CLK_GetLXTFreq</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[90]"></a>CLK_GetPCLK0Freq</STRONG> (Thumb, 120 bytes, Stack size 8 bytes, clk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = CLK_GetPCLK0Freq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Open
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_GetModuleClock
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_SetBusClockFreq
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_GetBusClockFreq
+</UL>
+
+<P><STRONG><a name="[91]"></a>CLK_GetPCLK1Freq</STRONG> (Thumb, 120 bytes, Stack size 8 bytes, clk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = CLK_GetPCLK1Freq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_Open
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_GetModuleClock
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_SetBusClockFreq
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C_GetBusClockFreq
+</UL>
+
+<P><STRONG><a name="[63]"></a>CLK_GetHCLKFreq</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, clk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetPCLKDivider
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_GetSourceClockFreq
+</UL>
+
+<P><STRONG><a name="[92]"></a>CLK_GetCPUFreq</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, clk.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+
+<P><STRONG><a name="[5e]"></a>CLK_WaitClockReady</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, clk.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetCoreClock
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetHCLK
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnablePLL
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[60]"></a>CLK_SetHCLK</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, clk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = CLK_SetHCLK &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_WaitClockReady
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetCoreClock
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[93]"></a>CLK_DisablePLL</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, clk.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnablePLL
+</UL>
+
+<P><STRONG><a name="[5f]"></a>CLK_EnablePLL</STRONG> (Thumb, 344 bytes, Stack size 32 bytes, clk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = CLK_EnablePLL &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_DisablePLL
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPLLClockFreq
+<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_WaitClockReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetCoreClock
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[95]"></a>CLK_SetCoreClock</STRONG> (Thumb, 194 bytes, Stack size 16 bytes, clk.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_WaitClockReady
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_SetHCLK
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnablePLL
+</UL>
+
+<P><STRONG><a name="[61]"></a>CLK_SetPCLKDivider</STRONG> (Thumb, 100 bytes, Stack size 32 bytes, clk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = CLK_SetPCLKDivider &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHCLKFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[59]"></a>CLK_SetModuleClock</STRONG> (Thumb, 104 bytes, Stack size 20 bytes, clk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = CLK_SetModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_INIT
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_INIT
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HIRC_AutoTrim_Init
+</UL>
+
+<P><STRONG><a name="[dc]"></a>CLK_SetSysTickClockSrc</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[5d]"></a>CLK_EnableXtalRC</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, clk.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[dd]"></a>CLK_DisableXtalRC</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[58]"></a>CLK_EnableModuleClock</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, clk.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_TX_Init
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_RX_Init
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_INIT
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_INIT
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_INIT
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HIRC_AutoTrim_Init
+</UL>
+
+<P><STRONG><a name="[de]"></a>CLK_DisableModuleClock</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[df]"></a>CLK_EnableSysTick</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[e0]"></a>CLK_DisableSysTick</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[e1]"></a>CLK_SetPowerDownMode</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[e2]"></a>CLK_GetPMUWKSrc</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[e3]"></a>CLK_EnableSPDWKPin</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[e4]"></a>CLK_DisableSPDWKPin</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, clk.o(.text), UNUSED)
+
+<P><STRONG><a name="[e5]"></a>GPIO_SetMode</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[7c]"></a>GPIO_EnablePullState</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = GPIO_EnablePullState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_INIT
+</UL>
+
+<P><STRONG><a name="[7d]"></a>GPIO_DisablePullState</STRONG> (Thumb, 36 bytes, Stack size 12 bytes, gpio.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_DisablePullState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[e6]"></a>GPIO_EnableInt</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[e7]"></a>GPIO_DisableInt</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[87]"></a>I2C_Open</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, i2c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = I2C_Open &rArr; CLK_GetPCLK1Freq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK1Freq
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK0Freq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_INIT
+</UL>
+
+<P><STRONG><a name="[e8]"></a>I2C_Close</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[8a]"></a>I2C_ClearTimeoutFlag</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_IRQHandler
+</UL>
+
+<P><STRONG><a name="[e9]"></a>I2C_Trigger</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[ea]"></a>I2C_DisableInt</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[88]"></a>I2C_EnableInt</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_INIT
+</UL>
+
+<P><STRONG><a name="[96]"></a>I2C_GetBusClockFreq</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, i2c.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK1Freq
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK0Freq
+</UL>
+
+<P><STRONG><a name="[97]"></a>I2C_SetBusClockFreq</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, i2c.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK1Freq
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK0Freq
+</UL>
+
+<P><STRONG><a name="[eb]"></a>I2C_GetIntFlag</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[ec]"></a>I2C_GetStatus</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[ed]"></a>I2C_GetData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[ee]"></a>I2C_SetData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[ef]"></a>I2C_SetSlaveAddr</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f0]"></a>I2C_SetSlaveAddrMask</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f1]"></a>I2C_EnableTimeout</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f2]"></a>I2C_DisableTimeout</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f3]"></a>I2C_EnableWakeup</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f4]"></a>I2C_DisableWakeup</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f5]"></a>I2C_SMBusGetStatus</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f6]"></a>I2C_SMBusClearInterruptFlag</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f7]"></a>I2C_SMBusSetPacketByteCount</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f8]"></a>I2C_SMBusOpen</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[f9]"></a>I2C_SMBusClose</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[fa]"></a>I2C_SMBusPECTxEnable</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[fb]"></a>I2C_SMBusGetPECValue</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[fc]"></a>I2C_SMBusIdleTimeout</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[fd]"></a>I2C_SMBusTimeout</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[fe]"></a>I2C_SMBusClockLoTimeout</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, i2c.o(.text), UNUSED)
+
+<P><STRONG><a name="[8b]"></a>I2S_Open</STRONG> (Thumb, 278 bytes, Stack size 64 bytes, i2s.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = I2S_Open &rArr; I2S_GetSourceClockFreq &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_ResetModule
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_GetSourceClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_INIT
+</UL>
+
+<P><STRONG><a name="[ff]"></a>I2S_Close</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2s.o(.text), UNUSED)
+
+<P><STRONG><a name="[8c]"></a>I2S_EnableMCLK</STRONG> (Thumb, 104 bytes, Stack size 32 bytes, i2s.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = I2S_EnableMCLK &rArr; I2S_GetSourceClockFreq &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_GetSourceClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_INIT
+</UL>
+
+<P><STRONG><a name="[100]"></a>I2S_DisableMCLK</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, i2s.o(.text), UNUSED)
+
+<P><STRONG><a name="[8d]"></a>PDMA_Open</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, pdma.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = PDMA_Open
+</UL>
+<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_TX_Init
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_RX_Init
+</UL>
+
+<P><STRONG><a name="[101]"></a>PDMA_Close</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[102]"></a>PDMA_SetTransferCnt</STRONG> (Thumb, 48 bytes, Stack size 12 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[103]"></a>PDMA_SetTransferAddr</STRONG> (Thumb, 62 bytes, Stack size 20 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[8e]"></a>PDMA_SetTransferMode</STRONG> (Thumb, 138 bytes, Stack size 40 bytes, pdma.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = PDMA_SetTransferMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_TX_Init
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_RX_Init
+</UL>
+
+<P><STRONG><a name="[104]"></a>PDMA_SetBurstType</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[105]"></a>PDMA_EnableTimeout</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[106]"></a>PDMA_DisableTimeout</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[107]"></a>PDMA_SetTimeOut</STRONG> (Thumb, 96 bytes, Stack size 8 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[108]"></a>PDMA_Trigger</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[8f]"></a>PDMA_EnableInt</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, pdma.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_TX_Init
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_RX_Init
+</UL>
+
+<P><STRONG><a name="[109]"></a>PDMA_DisableInt</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[10a]"></a>PDMA_EnableStride</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[10b]"></a>PDMA_SetStrideAddress</STRONG> (Thumb, 76 bytes, Stack size 20 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[10c]"></a>PDMA_SetStrideCount</STRONG> (Thumb, 146 bytes, Stack size 20 bytes, pdma.o(.text), UNUSED)
+
+<P><STRONG><a name="[9b]"></a>Hard_Fault_Handler</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, retarget.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stackDump
+</UL>
+
+<P><STRONG><a name="[9d]"></a>SendChar_ToUART</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, retarget.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendChar
+</UL>
+
+<P><STRONG><a name="[9c]"></a>SendChar</STRONG> (Thumb, 12 bytes, Stack size 4 bytes, retarget.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = SendChar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendChar_ToUART
+</UL>
+<BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_ttywrch
+</UL>
+
+<P><STRONG><a name="[a0]"></a>GetChar</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, retarget.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fgetc
+</UL>
+
+<P><STRONG><a name="[10d]"></a>kbhit</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, retarget.o(.text), UNUSED)
+
+<P><STRONG><a name="[10e]"></a>IsDebugFifoEmpty</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, retarget.o(.text), UNUSED)
+
+<P><STRONG><a name="[9e]"></a>_ttywrch</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, retarget.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendChar
+</UL>
+
+<P><STRONG><a name="[38]"></a>fputc</STRONG> (Thumb, 16 bytes, Stack size 12 bytes, retarget.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = fputc &rArr; SendChar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SendChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;puts
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> _printf_char_file.o(.text)
+</UL>
+<P><STRONG><a name="[9f]"></a>fgetc</STRONG> (Thumb, 10 bytes, Stack size 4 bytes, retarget.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetChar
+</UL>
+
+<P><STRONG><a name="[ae]"></a>ferror</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, retarget.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_file
+</UL>
+
+<P><STRONG><a name="[10f]"></a>SYS_ClearResetSrc</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[110]"></a>SYS_GetBODStatus</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[111]"></a>SYS_GetResetSrc</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[112]"></a>SYS_IsRegLocked</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[113]"></a>SYS_ReadPDID</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[114]"></a>SYS_ResetChip</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[115]"></a>SYS_ResetCPU</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[86]"></a>SYS_ResetModule</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, sys.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_Open
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_TX_Init
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_RX_Init
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_INIT
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_INIT
+</UL>
+
+<P><STRONG><a name="[116]"></a>SYS_EnableBOD</STRONG> (Thumb, 42 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[117]"></a>SYS_DisableBOD</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[64]"></a>SYS_EnableTrimHIRC</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, sys.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HIRC_AutoTrim_RefSof
+<LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TMR0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[118]"></a>SYS_DisableTrimHIRC</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, sys.o(.text), UNUSED)
+
+<P><STRONG><a name="[53]"></a>SYS_LockReg</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[52]"></a>SYS_UnlockReg</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, sys.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[62]"></a>SYS_Lock</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, sys.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Open
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[5c]"></a>SYS_Unlock</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, sys.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Open
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysClk_Initiate
+</UL>
+
+<P><STRONG><a name="[a1]"></a>TIMER_GetModuleClock</STRONG> (Thumb, 140 bytes, Stack size 16 bytes, timer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = TIMER_GetModuleClock &rArr; CLK_GetPCLK1Freq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK1Freq
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPCLK0Freq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Open
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_Delay
+</UL>
+
+<P><STRONG><a name="[5a]"></a>TIMER_Open</STRONG> (Thumb, 112 bytes, Stack size 32 bytes, timer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = TIMER_Open &rArr; TIMER_GetModuleClock &rArr; CLK_GetPCLK1Freq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_GetModuleClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HIRC_AutoTrim_Init
+</UL>
+
+<P><STRONG><a name="[119]"></a>TIMER_Close</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
+
+<P><STRONG><a name="[a2]"></a>TIMER_Delay</STRONG> (Thumb, 216 bytes, Stack size 32 bytes, timer.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER_GetModuleClock
+</UL>
+
+<P><STRONG><a name="[11a]"></a>TIMER_EnableCapture</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, timer.o(.text), UNUSED)
+
+<P><STRONG><a name="[11b]"></a>TIMER_DisableCapture</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
+
+<P><STRONG><a name="[11c]"></a>TIMER_EnableEventCounter</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
+
+<P><STRONG><a name="[11d]"></a>TIMER_DisableEventCounter</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, timer.o(.text), UNUSED)
+
+<P><STRONG><a name="[78]"></a>USBD_Open</STRONG> (Thumb, 88 bytes, Stack size 24 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_Open
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Unlock
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Lock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_INIT
+</UL>
+
+<P><STRONG><a name="[6a]"></a>USBD_START</STRONG> (Thumb, 98 bytes, Stack size 0 bytes, usbd.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[6c]"></a>USBD_GetSetupPacket</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_GetSetupPacket &rArr; USBD_MemCopy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_MemCopy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_ClassRequest
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_SetInterface
+</UL>
+
+<P><STRONG><a name="[76]"></a>USBD_PrepareCtrlOut</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, usbd.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_ClassRequest
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StandardRequest
+</UL>
+
+<P><STRONG><a name="[77]"></a>USBD_PrepareCtrlIn</STRONG> (Thumb, 142 bytes, Stack size 16 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_PrepareCtrlIn &rArr; USBD_MemCopy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_MemCopy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_ClassRequest
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetDescriptor
+</UL>
+
+<P><STRONG><a name="[a4]"></a>USBD_GetDescriptor</STRONG> (Thumb, 366 bytes, Stack size 16 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USBD_GetDescriptor &rArr; USBD_PrepareCtrlIn &rArr; USBD_MemCopy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_PrepareCtrlIn
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StandardRequest
+</UL>
+
+<P><STRONG><a name="[a5]"></a>USBD_StandardRequest</STRONG> (Thumb, 966 bytes, Stack size 16 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USBD_StandardRequest &rArr; USBD_GetDescriptor &rArr; USBD_PrepareCtrlIn &rArr; USBD_MemCopy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_PrepareCtrlOut
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetDescriptor
+</UL>
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ProcessSetupPacket
+</UL>
+
+<P><STRONG><a name="[85]"></a>USBD_ProcessSetupPacket</STRONG> (Thumb, 104 bytes, Stack size 8 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = USBD_ProcessSetupPacket &rArr; USBD_StandardRequest &rArr; USBD_GetDescriptor &rArr; USBD_PrepareCtrlIn &rArr; USBD_MemCopy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StandardRequest
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_MemCopy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[7f]"></a>USBD_CtrlIn</STRONG> (Thumb, 220 bytes, Stack size 8 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_CtrlIn &rArr; USBD_MemCopy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_MemCopy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[80]"></a>USBD_CtrlOut</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_CtrlOut &rArr; USBD_MemCopy
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_MemCopy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[7e]"></a>USBD_SwReset</STRONG> (Thumb, 162 bytes, Stack size 0 bytes, usbd.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_IRQHandler
+</UL>
+
+<P><STRONG><a name="[11e]"></a>USBD_SetVendorRequest</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd.o(.text), UNUSED)
+
+<P><STRONG><a name="[11f]"></a>USBD_SetConfigCallback</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd.o(.text), UNUSED)
+
+<P><STRONG><a name="[120]"></a>USBD_LockEpStall</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd.o(.text), UNUSED)
+
+<P><STRONG><a name="[73]"></a>__2printf</STRONG> (Thumb, 20 bytes, Stack size 24 bytes, noretval__2printf.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144 + Unknown Stack Size
+<LI>Call Chain = __2printf &rArr; _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_file
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_ClassRequest
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Hard_Fault_Handler
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stackDump
+</UL>
+
+<P><STRONG><a name="[ab]"></a>_printf_pre_padding</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, _printf_pad.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _printf_pre_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
+</UL>
+
+<P><STRONG><a name="[ac]"></a>_printf_post_padding</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, _printf_pad.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = _printf_post_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
+</UL>
+
+<P><STRONG><a name="[42]"></a>_printf_int_hex</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, _printf_hex_int.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _printf_int_hex &rArr; _printf_int_common &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_common
+</UL>
+<BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_x
+</UL>
+
+<P><STRONG><a name="[121]"></a>_printf_longlong_hex</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, _printf_hex_int.o(.text), UNUSED)
+
+<P><STRONG><a name="[a8]"></a>__printf</STRONG> (Thumb, 308 bytes, Stack size 40 bytes, __printf_flags_wp.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40 + Unknown Stack Size
+<LI>Call Chain = __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_is_digit
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_percent
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_common
+</UL>
+
+<P><STRONG><a name="[74]"></a>puts</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, puts.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = puts &rArr; fputc &rArr; SendChar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_ClassRequest
+</UL>
+
+<P><STRONG><a name="[122]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[123]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[124]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[a7]"></a>_printf_int_common</STRONG> (Thumb, 178 bytes, Stack size 32 bytes, _printf_intcommon.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = _printf_int_common &rArr; _printf_post_padding
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+</UL>
+<BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_int_hex
+</UL>
+
+<P><STRONG><a name="[a6]"></a>_printf_char_file</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, _printf_char_file.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120 + Unknown Stack Size
+<LI>Call Chain = _printf_char_file &rArr; _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ferror
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_common
+</UL>
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+
+<P><STRONG><a name="[ad]"></a>_printf_char_common</STRONG> (Thumb, 32 bytes, Stack size 64 bytes, _printf_char_common.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104 + Unknown Stack Size
+<LI>Call Chain = _printf_char_common &rArr; __printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_char_file
+</UL>
+
+<P><STRONG><a name="[46]"></a>__user_setup_stackheap</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
+</UL>
+<BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
+</UL>
+
+<P><STRONG><a name="[4b]"></a>exit</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, exit.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = exit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[125]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[af]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[126]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[4f]"></a>_sys_exit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_exit.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
+</UL>
+
+<P><STRONG><a name="[127]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[128]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[129]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, indicate_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[a9]"></a>_is_digit</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, __printf_wp.o(i._is_digit))
+<BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__printf
+</UL>
+
+<P><STRONG><a name="[44]"></a>_fp_init</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, fpinit.o(x$fpl$fpinit))
+<BR><BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_fp_1
+</UL>
+
+<P><STRONG><a name="[12a]"></a>__fplib_config_fpu_vfp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+
+<P><STRONG><a name="[12b]"></a>__fplib_config_pureend_doubles</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[11]"></a>Default_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_i94100.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Default_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Default_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_i94100.o(RESET)
+</UL>
+<P><STRONG><a name="[51]"></a>CLK_GetPLLClockFreq</STRONG> (Thumb, 100 bytes, Stack size 24 bytes, system_i94100.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+
+<P><STRONG><a name="[55]"></a>NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, sysclk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Systick_Init
+</UL>
+
+<P><STRONG><a name="[57]"></a>NVIC_EnableIRQ</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, sysclk.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HIRC_AutoTrim_Init
+</UL>
+
+<P><STRONG><a name="[75]"></a>USBD_SetStall</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, audio_class.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_SetStall
+</UL>
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AUDIO_ClassRequest
+</UL>
+
+<P><STRONG><a name="[89]"></a>NVIC_EnableIRQ</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, nau88l21_lib.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_TX_Init
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PDMA_I2S0_RX_Init
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2C1_INIT
+</UL>
+
+<P><STRONG><a name="[94]"></a>CLK_GetPLLClockFreq</STRONG> (Thumb, 102 bytes, Stack size 24 bytes, clk.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_EnablePLL
+</UL>
+
+<P><STRONG><a name="[98]"></a>I2S_GetSourceClockFreq</STRONG> (Thumb, 134 bytes, Stack size 24 bytes, i2s.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = I2S_GetSourceClockFreq &rArr; CLK_GetHCLKFreq &rArr; SystemCoreClockUpdate &rArr; CLK_GetPLLClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetHCLKFreq
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_Open
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_EnableMCLK
+</UL>
+
+<P><STRONG><a name="[99]"></a>CLK_GetPLLClockFreq</STRONG> (Thumb, 102 bytes, Stack size 24 bytes, i2s.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = CLK_GetPLLClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;I2S_GetSourceClockFreq
+</UL>
+
+<P><STRONG><a name="[9a]"></a>stackDump</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, retarget.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Hard_Fault_Handler
+</UL>
+
+<P><STRONG><a name="[a3]"></a>USBD_MemCopy</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, usbd.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_MemCopy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ProcessSetupPacket
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_PrepareCtrlIn
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetSetupPacket
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CtrlOut
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CtrlIn
+</UL>
+
+<P><STRONG><a name="[39]"></a>_printf_input_char</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, _printf_char_common.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> _printf_char_common.o(.text)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
